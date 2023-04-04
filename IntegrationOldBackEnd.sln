@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GSM00200Common", "GSM0200Common\GSM00200Common.csproj", "{515FCCD3-42F0-4285-A592-90D353DF1816}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "GSM00200Back", "GSM00200Back\GSM00200Back.vbproj", "{CB691A2E-7132-4C41-B974-E36F35653B3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GSM00200Service", "GSM00200Service\GSM00200Service.csproj", "{5A9B4762-0E31-4B9B-B2B2-A3B1E9AC1184}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "AuthBack", "AuthBack\AuthBack.vbproj", "{EF9208B1-F262-4FD1-BA7A-1F4C493B6B91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthCommon", "AuthCommon\AuthCommon.csproj", "{B909A84B-78DD-4891-9B5F-F354E7518587}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthService", "AuthService\AuthService.csproj", "{82B6FBAA-5615-4F12-B112-A2AAC4781080}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealtaAPI", "RealtaAPI\RealtaAPI.csproj", "{FBC61B4E-4674-4697-969B-393C1B3B2647}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AUTH", "AUTH", "{C3E003CF-526F-4712-8268-53D7B1617DDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{515FCCD3-42F0-4285-A592-90D353DF1816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515FCCD3-42F0-4285-A592-90D353DF1816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515FCCD3-42F0-4285-A592-90D353DF1816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515FCCD3-42F0-4285-A592-90D353DF1816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB691A2E-7132-4C41-B974-E36F35653B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB691A2E-7132-4C41-B974-E36F35653B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB691A2E-7132-4C41-B974-E36F35653B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB691A2E-7132-4C41-B974-E36F35653B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9B4762-0E31-4B9B-B2B2-A3B1E9AC1184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9B4762-0E31-4B9B-B2B2-A3B1E9AC1184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9B4762-0E31-4B9B-B2B2-A3B1E9AC1184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9B4762-0E31-4B9B-B2B2-A3B1E9AC1184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9208B1-F262-4FD1-BA7A-1F4C493B6B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9208B1-F262-4FD1-BA7A-1F4C493B6B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9208B1-F262-4FD1-BA7A-1F4C493B6B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9208B1-F262-4FD1-BA7A-1F4C493B6B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B909A84B-78DD-4891-9B5F-F354E7518587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B909A84B-78DD-4891-9B5F-F354E7518587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B909A84B-78DD-4891-9B5F-F354E7518587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B909A84B-78DD-4891-9B5F-F354E7518587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B6FBAA-5615-4F12-B112-A2AAC4781080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B6FBAA-5615-4F12-B112-A2AAC4781080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B6FBAA-5615-4F12-B112-A2AAC4781080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B6FBAA-5615-4F12-B112-A2AAC4781080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC61B4E-4674-4697-969B-393C1B3B2647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC61B4E-4674-4697-969B-393C1B3B2647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC61B4E-4674-4697-969B-393C1B3B2647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC61B4E-4674-4697-969B-393C1B3B2647}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF9208B1-F262-4FD1-BA7A-1F4C493B6B91} = {C3E003CF-526F-4712-8268-53D7B1617DDB}
+		{B909A84B-78DD-4891-9B5F-F354E7518587} = {C3E003CF-526F-4712-8268-53D7B1617DDB}
+		{82B6FBAA-5615-4F12-B112-A2AAC4781080} = {C3E003CF-526F-4712-8268-53D7B1617DDB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B78D810-83F4-4A14-8803-449DAEE33411}
+	EndGlobalSection
+EndGlobal
